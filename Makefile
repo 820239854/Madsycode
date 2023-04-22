@@ -1,6 +1,6 @@
 engine=src/Core/Engine.cpp
 files=src/main.cpp $(engine)
-libs=-lmingw32 -lSDL2main -lSDL2
+libs=-lmingw32 -lSDL2main -lSDL2 -lSDL_image
 
 all: build
 
