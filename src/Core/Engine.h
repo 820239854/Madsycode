@@ -1,6 +1,4 @@
-#ifndef ENGINE_H
-#define ENGINE_H
-
+#pragma once
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 
@@ -39,5 +37,3 @@ private:
     SDL_Renderer *m_renderer;
     static Engine *m_instance;
 };
-
-#endif
